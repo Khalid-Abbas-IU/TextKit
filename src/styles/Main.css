@@ -1,0 +1,36 @@
+.center-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tk-mainpanel-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.tk-header{
+    width: 100%;
+    height: 8%;
+    border-bottom: 0.5px solid rgba(114, 106, 106, 0.18);
+}
+.tk-main-container{
+    display: flex;
+    width: 100%;
+    height: 92%;
+}
+.tk-content-container{
+    width: 100%;
+}
+
+.tk-left-panel{
+    width: 25%;
+    background: #475451;
+}
+.tk-center-panel{
+    width: 75%;
+    background: chartreuse;
+}
+.tk-right-panel{
+    width: 25%;
+    background: rgb(170, 13, 91);
+}

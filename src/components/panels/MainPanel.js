@@ -1,11 +1,12 @@
 import React from 'react'
 import '../../styles/Main.css'
+import LeftMenuPanel from '../LeftMenuPanel';
 export default class MainPanel extends React.Component{
     render(){
         return(
             <div className="tk-mainpanel-container">
-                <div className="tk-left-panel center-div">
-                    <span>Left panel</span>
+                <div className="tk-left-panel">
+                    <LeftMenuPanel/>
                 </div>
                 <div className="tk-content-container">
                     <div className="tk-header center-div">
